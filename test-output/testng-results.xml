@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="15" passed="15">
+  <reporter-output>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[TC:ValidateLoginBeforeRegistration]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Status code:401 Response:user not found]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[
+
+]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[TC:validateRegistrationWithInvalidData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Status code:400 Response:email is not allowed to be empty]]>
+    </line>
+    <line>
+      <![CDATA[Status code:400 Response:password is not allowed to be empty]]>
+    </line>
+    <line>
+      <![CDATA[Status code:400 Response:email must be a valid email]]>
+    </line>
+    <line>
+      <![CDATA[Status code:400 Response:password length must be at least 6 characters long]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[
+
+]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[TC:ValidateRegistration]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Status code:200 Response:User created successfully]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[
+
+]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[TC:ValidateRegistrationWithSameUserData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Status code:400 Response:User already exists]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[
+
+]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[TC:ValidateAccessingDataWithoutLogin]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Status code:401 Response:Access Denied]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[
+
+]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[TC:validateLoginWithInvalidCredentials]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Status code:400 Response:please enter email id]]>
+    </line>
+    <line>
+      <![CDATA[Status code:400 Response:please enter password]]>
+    </line>
+    <line>
+      <![CDATA[Status code:401 Response:user not found]]>
+    </line>
+    <line>
+      <![CDATA[Status code:401 Response:password not matching]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[
+
+]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[TC:validateLogin]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Status code:200 Response:Login success]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[
+
+]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[TC:validateDataWithoutCreation]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Status code:200 Response:[{id:c2FuYXRrdW1hckBnbWFpbC5jb21wYXNzd29yZDEyMzQ=}]]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[
+
+]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[TC:createUserData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Status code:201 Response:Data created successfully]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[
+
+]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[TC:validateCreatedUserData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Status code:200 Response:[{age:30,id:c2FuYXRrdW1hckBnbWFpbC5jb21wYXNzd29yZDEyMzQ=,name:Sanat}]]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[
+
+]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[TC:updateUserData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Status code:201 Response:Data updated successfully]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[
+
+]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[TC:validateUpdatedUserData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Status code:200 Response:[{age:20,id:c2FuYXRrdW1hckBnbWFpbC5jb21wYXNzd29yZDEyMzQ=,name:Sanat_Kumar}]]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[
+
+]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[TC:deleteUserData]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Status code:201 Response:Data deleted successfully]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[
+
+]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[TC:validateUserRemove]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Status code:201 Response:User removed successfully]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[
+
+]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[TC:ValidateUserRemovalForNoUser]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[Status code:404 Response:User not found]]>
+    </line>
+    <line>
+      <![CDATA[============================================]]>
+    </line>
+    <line>
+      <![CDATA[
+
+]]>
+    </line>
+  </reporter-output>
+  <suite name="User API Suite" duration-ms="41555" started-at="2022-09-16T03:14:34Z" finished-at="2022-09-16T03:15:16Z">
+    <groups>
+    </groups>
+    <test name="User API Test" duration-ms="41555" started-at="2022-09-16T03:14:34Z" finished-at="2022-09-16T03:15:16Z">
+      <class name="UserAPIServices.UserAPIServices.UserAPITest">
+        <test-method status="PASS" signature="init()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="init" is-config="true" duration-ms="12" started-at="2022-09-15T20:14:34Z" finished-at="2022-09-15T20:14:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="beforeMethod" is-config="true" duration-ms="2011" started-at="2022-09-15T20:14:34Z" finished-at="2022-09-15T20:14:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UserAPIServices.UserAPIServices.UserAPITest.ValidateLoginBeforeRegistration()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[TC:ValidateLoginBeforeRegistration]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ValidateLoginBeforeRegistration()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="ValidateLoginBeforeRegistration" duration-ms="2015" started-at="2022-09-15T20:14:36Z" finished-at="2022-09-15T20:14:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code:401 Response:user not found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginBeforeRegistration -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="afterMethod" is-config="true" duration-ms="4" started-at="2022-09-15T20:14:38Z" finished-at="2022-09-15T20:14:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[
+
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="beforeMethod" is-config="true" duration-ms="2008" started-at="2022-09-15T20:14:38Z" finished-at="2022-09-15T20:14:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UserAPIServices.UserAPIServices.UserAPITest.validateRegistrationWithInvalidData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[TC:validateRegistrationWithInvalidData]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateRegistrationWithInvalidData()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="validateRegistrationWithInvalidData" duration-ms="1638" started-at="2022-09-15T20:14:40Z" finished-at="2022-09-15T20:14:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code:400 Response:email is not allowed to be empty]]>
+            </line>
+            <line>
+              <![CDATA[Status code:400 Response:password is not allowed to be empty]]>
+            </line>
+            <line>
+              <![CDATA[Status code:400 Response:email must be a valid email]]>
+            </line>
+            <line>
+              <![CDATA[Status code:400 Response:password length must be at least 6 characters long]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateRegistrationWithInvalidData -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-09-15T20:14:42Z" finished-at="2022-09-15T20:14:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[
+
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="beforeMethod" is-config="true" duration-ms="2012" started-at="2022-09-15T20:14:42Z" finished-at="2022-09-15T20:14:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UserAPIServices.UserAPIServices.UserAPITest.ValidateRegistration()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[TC:ValidateRegistration]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ValidateRegistration()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="ValidateRegistration" duration-ms="934" started-at="2022-09-15T20:14:44Z" finished-at="2022-09-15T20:14:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code:200 Response:User created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateRegistration -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-09-15T20:14:45Z" finished-at="2022-09-15T20:14:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[
+
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="beforeMethod" is-config="true" duration-ms="2006" started-at="2022-09-15T20:14:45Z" finished-at="2022-09-15T20:14:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UserAPIServices.UserAPIServices.UserAPITest.ValidateRegistrationWithSameUserData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[TC:ValidateRegistrationWithSameUserData]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ValidateRegistrationWithSameUserData()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="ValidateRegistrationWithSameUserData" duration-ms="401" started-at="2022-09-15T20:14:47Z" finished-at="2022-09-15T20:14:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code:400 Response:User already exists]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateRegistrationWithSameUserData -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-09-15T20:14:47Z" finished-at="2022-09-15T20:14:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[
+
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="beforeMethod" is-config="true" duration-ms="2015" started-at="2022-09-15T20:14:47Z" finished-at="2022-09-15T20:14:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UserAPIServices.UserAPIServices.UserAPITest.ValidateAccessingDataWithoutLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[TC:ValidateAccessingDataWithoutLogin]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ValidateAccessingDataWithoutLogin()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="ValidateAccessingDataWithoutLogin" duration-ms="394" started-at="2022-09-15T20:14:49Z" finished-at="2022-09-15T20:14:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code:401 Response:Access Denied]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateAccessingDataWithoutLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-09-15T20:14:50Z" finished-at="2022-09-15T20:14:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[
+
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="beforeMethod" is-config="true" duration-ms="2013" started-at="2022-09-15T20:14:50Z" finished-at="2022-09-15T20:14:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UserAPIServices.UserAPIServices.UserAPITest.validateLoginWithInvalidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[TC:validateLoginWithInvalidCredentials]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateLoginWithInvalidCredentials()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="validateLoginWithInvalidCredentials" duration-ms="1680" started-at="2022-09-15T20:14:52Z" finished-at="2022-09-15T20:14:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code:400 Response:please enter email id]]>
+            </line>
+            <line>
+              <![CDATA[Status code:400 Response:please enter password]]>
+            </line>
+            <line>
+              <![CDATA[Status code:401 Response:user not found]]>
+            </line>
+            <line>
+              <![CDATA[Status code:401 Response:password not matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateLoginWithInvalidCredentials -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-09-15T20:14:53Z" finished-at="2022-09-15T20:14:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[
+
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="beforeMethod" is-config="true" duration-ms="2002" started-at="2022-09-15T20:14:53Z" finished-at="2022-09-15T20:14:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UserAPIServices.UserAPIServices.UserAPITest.validateLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[TC:validateLogin]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateLogin()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="validateLogin" duration-ms="403" started-at="2022-09-15T20:14:55Z" finished-at="2022-09-15T20:14:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code:200 Response:Login success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-09-15T20:14:56Z" finished-at="2022-09-15T20:14:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[
+
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="beforeMethod" is-config="true" duration-ms="2003" started-at="2022-09-15T20:14:56Z" finished-at="2022-09-15T20:14:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UserAPIServices.UserAPIServices.UserAPITest.validateDataWithoutCreation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[TC:validateDataWithoutCreation]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateDataWithoutCreation()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="validateDataWithoutCreation" duration-ms="463" started-at="2022-09-15T20:14:58Z" finished-at="2022-09-15T20:14:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code:200 Response:[{id:c2FuYXRrdW1hckBnbWFpbC5jb21wYXNzd29yZDEyMzQ=}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateDataWithoutCreation -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-09-15T20:14:58Z" finished-at="2022-09-15T20:14:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[
+
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="beforeMethod" is-config="true" duration-ms="2016" started-at="2022-09-15T20:14:58Z" finished-at="2022-09-15T20:15:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UserAPIServices.UserAPIServices.UserAPITest.createUserData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[TC:createUserData]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createUserData()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="createUserData" duration-ms="558" started-at="2022-09-15T20:15:00Z" finished-at="2022-09-15T20:15:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code:201 Response:Data created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createUserData -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-09-15T20:15:01Z" finished-at="2022-09-15T20:15:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[
+
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="beforeMethod" is-config="true" duration-ms="2001" started-at="2022-09-15T20:15:01Z" finished-at="2022-09-15T20:15:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UserAPIServices.UserAPIServices.UserAPITest.validateCreatedUserData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[TC:validateCreatedUserData]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateCreatedUserData()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="validateCreatedUserData" duration-ms="443" started-at="2022-09-15T20:15:03Z" finished-at="2022-09-15T20:15:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code:200 Response:[{age:30,id:c2FuYXRrdW1hckBnbWFpbC5jb21wYXNzd29yZDEyMzQ=,name:Sanat}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateCreatedUserData -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-09-15T20:15:03Z" finished-at="2022-09-15T20:15:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[
+
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="beforeMethod" is-config="true" duration-ms="2004" started-at="2022-09-15T20:15:03Z" finished-at="2022-09-15T20:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UserAPIServices.UserAPIServices.UserAPITest.updateUserData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[TC:updateUserData]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="updateUserData()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="updateUserData" duration-ms="469" started-at="2022-09-15T20:15:05Z" finished-at="2022-09-15T20:15:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code:201 Response:Data updated successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateUserData -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="beforeMethod" is-config="true" duration-ms="2013" started-at="2022-09-15T20:15:06Z" finished-at="2022-09-15T20:15:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UserAPIServices.UserAPIServices.UserAPITest.validateUpdatedUserData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[TC:validateUpdatedUserData]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-09-15T20:15:06Z" finished-at="2022-09-15T20:15:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[
+
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="validateUpdatedUserData()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="validateUpdatedUserData" duration-ms="462" started-at="2022-09-15T20:15:08Z" finished-at="2022-09-15T20:15:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code:200 Response:[{age:20,id:c2FuYXRrdW1hckBnbWFpbC5jb21wYXNzd29yZDEyMzQ=,name:Sanat_Kumar}]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUpdatedUserData -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-09-15T20:15:08Z" finished-at="2022-09-15T20:15:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[
+
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="beforeMethod" is-config="true" duration-ms="2004" started-at="2022-09-15T20:15:08Z" finished-at="2022-09-15T20:15:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UserAPIServices.UserAPIServices.UserAPITest.deleteUserData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[TC:deleteUserData]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="deleteUserData()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="deleteUserData" duration-ms="527" started-at="2022-09-15T20:15:10Z" finished-at="2022-09-15T20:15:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code:201 Response:Data deleted successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteUserData -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-09-15T20:15:11Z" finished-at="2022-09-15T20:15:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[
+
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="beforeMethod" is-config="true" duration-ms="2014" started-at="2022-09-15T20:15:11Z" finished-at="2022-09-15T20:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UserAPIServices.UserAPIServices.UserAPITest.validateUserRemove()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[TC:validateUserRemove]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateUserRemove()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="validateUserRemove" duration-ms="530" started-at="2022-09-15T20:15:13Z" finished-at="2022-09-15T20:15:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code:201 Response:User removed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUserRemove -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-09-15T20:15:13Z" finished-at="2022-09-15T20:15:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[
+
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="beforeMethod" is-config="true" duration-ms="2017" started-at="2022-09-15T20:15:13Z" finished-at="2022-09-15T20:15:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void UserAPIServices.UserAPIServices.UserAPITest.ValidateUserRemovalForNoUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[TC:ValidateUserRemovalForNoUser]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ValidateUserRemovalForNoUser()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="ValidateUserRemovalForNoUser" duration-ms="424" started-at="2022-09-15T20:15:15Z" finished-at="2022-09-15T20:15:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status code:404 Response:User not found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateUserRemovalForNoUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:UserAPIServices.UserAPIServices.UserAPITest@6a4f787b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-09-15T20:15:16Z" finished-at="2022-09-15T20:15:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[============================================]]>
+            </line>
+            <line>
+              <![CDATA[
+
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- UserAPIServices.UserAPIServices.UserAPITest -->
+    </test> <!-- User API Test -->
+  </suite> <!-- User API Suite -->
+</testng-results>

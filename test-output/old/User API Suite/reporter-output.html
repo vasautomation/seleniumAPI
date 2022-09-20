@@ -1,0 +1,127 @@
+<h2>Reporter output</h2><table><tr><td>============================================</td></tr>
+<tr><td>TC:ValidateLoginBeforeRegistration</td></tr>
+<tr><td>--------------------------------------------</td></tr>
+<tr><td>Status code:401 Response:user not found</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>
+
+</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>TC:validateRegistrationWithInvalidData</td></tr>
+<tr><td>--------------------------------------------</td></tr>
+<tr><td>Status code:400 Response:email is not allowed to be empty</td></tr>
+<tr><td>Status code:400 Response:password is not allowed to be empty</td></tr>
+<tr><td>Status code:400 Response:email must be a valid email</td></tr>
+<tr><td>Status code:400 Response:password length must be at least 6 characters long</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>
+
+</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>TC:ValidateRegistration</td></tr>
+<tr><td>--------------------------------------------</td></tr>
+<tr><td>Status code:200 Response:User created successfully</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>
+
+</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>TC:ValidateRegistrationWithSameUserData</td></tr>
+<tr><td>--------------------------------------------</td></tr>
+<tr><td>Status code:400 Response:User already exists</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>
+
+</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>TC:ValidateAccessingDataWithoutLogin</td></tr>
+<tr><td>--------------------------------------------</td></tr>
+<tr><td>Status code:401 Response:Access Denied</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>
+
+</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>TC:validateLoginWithInvalidCredentials</td></tr>
+<tr><td>--------------------------------------------</td></tr>
+<tr><td>Status code:400 Response:please enter email id</td></tr>
+<tr><td>Status code:400 Response:please enter password</td></tr>
+<tr><td>Status code:401 Response:user not found</td></tr>
+<tr><td>Status code:401 Response:password not matching</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>
+
+</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>TC:validateLogin</td></tr>
+<tr><td>--------------------------------------------</td></tr>
+<tr><td>Status code:200 Response:Login success</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>
+
+</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>TC:validateDataWithoutCreation</td></tr>
+<tr><td>--------------------------------------------</td></tr>
+<tr><td>Status code:200 Response:[{id:c2FuYXRrdW1hckBnbWFpbC5jb21wYXNzd29yZDEyMzQ=}]</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>
+
+</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>TC:createUserData</td></tr>
+<tr><td>--------------------------------------------</td></tr>
+<tr><td>Status code:201 Response:Data created successfully</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>
+
+</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>TC:validateCreatedUserData</td></tr>
+<tr><td>--------------------------------------------</td></tr>
+<tr><td>Status code:200 Response:[{age:30,id:c2FuYXRrdW1hckBnbWFpbC5jb21wYXNzd29yZDEyMzQ=,name:Sanat}]</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>
+
+</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>TC:updateUserData</td></tr>
+<tr><td>--------------------------------------------</td></tr>
+<tr><td>Status code:201 Response:Data updated successfully</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>
+
+</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>TC:validateUpdatedUserData</td></tr>
+<tr><td>--------------------------------------------</td></tr>
+<tr><td>Status code:200 Response:[{age:20,id:c2FuYXRrdW1hckBnbWFpbC5jb21wYXNzd29yZDEyMzQ=,name:Sanat_Kumar}]</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>
+
+</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>TC:deleteUserData</td></tr>
+<tr><td>--------------------------------------------</td></tr>
+<tr><td>Status code:201 Response:Data deleted successfully</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>
+
+</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>TC:validateUserRemove</td></tr>
+<tr><td>--------------------------------------------</td></tr>
+<tr><td>Status code:201 Response:User removed successfully</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>
+
+</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>TC:ValidateUserRemovalForNoUser</td></tr>
+<tr><td>--------------------------------------------</td></tr>
+<tr><td>Status code:404 Response:User not found</td></tr>
+<tr><td>============================================</td></tr>
+<tr><td>
+
+</td></tr>
+</table>
